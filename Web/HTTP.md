@@ -30,3 +30,35 @@ HTTP Version: Indicates which version of the HTTP protocol is used to process th
 After the Request Line, the headers are sent. They carry additional information about the request, such as the content type, authentication data, cookies, the user agent, and other settings required for communication.
 
 Some requests may also include a message body, which is used to send data to the server. This is common in methods such as POST, PUT, and PATCH, but it is usually absent in GET requests.
+
+HTTP Methods
+
+HTTP methods define the action that the client wants to perform on a specific resource. Each method has a specific purpose and should be used according to the intended operation.
+
+GET
+
+Used to retrieve a resource from the server. Its purpose is to obtain information without modifying the resource's state.
+
+POST
+
+Used to send data to the server, usually to create a new resource or submit information for processing.
+
+PUT
+
+Used to create a new resource or completely replace an existing one. If the resource already exists, its content is completely overwritten.
+
+PATCH
+
+Used to partially update an existing resource by modifying only the specified fields instead of replacing the entire resource.
+
+DELETE
+
+Used to remove a specific resource from the server.
+
+HEAD
+
+Works similarly to the GET method but returns only the response headers, without the response body. It is used to verify whether a resource exists or to retrieve information about it without transferring its content.
+
+OPTIONS
+
+Returns the HTTP methods and communication options supported by a resource. It is commonly used by web browsers during CORS preflight requests.
