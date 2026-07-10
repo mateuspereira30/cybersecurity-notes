@@ -16,3 +16,17 @@ HTTP is stateless, meaning there is no relationship between two separate request
 Authentication allows some pages to be protected so that only specific users can access them.
 
 HTTPS is HTTP over SSL/TLS.
+
+Structure of an HTTP Request
+
+Every HTTP request is composed of different parts, each with a specific role in the communication between the client and the server.
+
+The first line of the request, known as the Request Line, contains three key pieces of information:
+
+HTTP Method: Defines the action that the client wants to perform on a resource, such as retrieving, creating, updating, or deleting data.
+Request Path: Identifies the resource that the client wants to access on the server.
+HTTP Version: Indicates which version of the HTTP protocol is used to process the request.
+
+After the Request Line, the headers are sent. They carry additional information about the request, such as the content type, authentication data, cookies, the user agent, and other settings required for communication.
+
+Some requests may also include a message body, which is used to send data to the server. This is common in methods such as POST, PUT, and PATCH, but it is usually absent in GET requests.
