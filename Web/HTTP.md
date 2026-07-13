@@ -11,7 +11,7 @@ HTTP is designed to be simple and easy to read and understand.
 
 It is also extensible. Headers make it easy to extend HTTP and experiment with new features. New functionality can be added after an agreement between the client and the server.
 
-HTTP is stateless, meaning there is no relationship between two separate requests. This is why cookies exist: they are used to store session information.
+HTTP is stateless, meaning that each request is independent and the server does not automatically remember previous interactions. Cookies are commonly used to maintain state between requests, such as storing session identifiers and user preferences.
 
 Authentication allows some pages to be protected so that only specific users can access them.
 
