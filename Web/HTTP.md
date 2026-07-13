@@ -23,7 +23,7 @@ Every HTTP request is composed of different parts, each with a specific role in 
 
 The first line of the request, known as the Request Line, contains three key pieces of information:
 
-### HTTP Method
+## HTTP Method
 Defines the action that the client wants to perform on a resource, such as retrieving, creating, updating, or deleting data.
 
 ### Request Path
@@ -114,7 +114,7 @@ Contains the data returned by the server, such as an HTML page, a JSON document,
 - **502 Bad Gateway** – The server received an invalid response from an upstream server.
 - **503 Service Unavailable** – The server is temporarily unavailable.
 
-## HTTP is the foundation of Web Security.
+## Why HTTP Matters in Web Security
 
 Understanding HTTP requests and responses is essential for identifying vulnerabilities such as:
 
