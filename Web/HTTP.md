@@ -78,28 +78,35 @@ An HTTP response consists of three main parts:
 ### Message Body: Contains the data returned by the server, such as an HTML page, a JSON document, an image, or any other type of content. In some responses, the message body may be absent.
 
 ## Most Common HTTP Status Codes
-### 2xx - Success
-200 OK – The request was successful.
-201 Created – The request was successful, and a new resource was created.
-204 No Content – The request was successful, but there is no content to return.
-### 3xx - Redirection
-301 Moved Permanently – The requested resource has been permanently moved to a new URL.
-302 Found – Temporarily redirects the client to another URL.
-304 Not Modified – Indicates that the cached version of the resource is still valid.
-307 Temporary Redirect – Temporarily redirects the client while preserving the original HTTP method.
-308 Permanent Redirect – Permanently redirects the client while preserving the original HTTP method.
-### 4xx - Client Errors
-400 Bad Request – The server could not understand the request due to invalid syntax.
-401 Unauthorized – Authentication is required to access the resource.
-403 Forbidden – The server understands the request but refuses to authorize it.
-404 Not Found – The requested resource could not be found.
-405 Method Not Allowed – The request method is not allowed for the target resource.
-429 Too Many Requests – The client has sent too many requests in a given amount of time, usually due to rate limiting.
-### 5xx - Server Errors
-500 Internal Server Error – An unexpected error occurred on the server.
-502 Bad Gateway – The server received an invalid response from an upstream server.
-503 Service Unavailable – The server is temporarily unavailable.
 
+### 2xx - Success
+
+- **200 OK** – The request was successful.
+- **201 Created** – The request was successful, and a new resource was created.
+- **204 No Content** – The request was successful, but there is no content to return.
+
+### 3xx - Redirection
+
+- **301 Moved Permanently** – The requested resource has been permanently moved to a new URL.
+- **302 Found** – Temporarily redirects the client to another URL.
+- **304 Not Modified** – Indicates that the cached version of the resource is still valid.
+- **307 Temporary Redirect** – Temporarily redirects the client while preserving the original HTTP method.
+- **308 Permanent Redirect** – Permanently redirects the client while preserving the original HTTP method.
+
+### 4xx - Client Errors
+
+- **400 Bad Request** – The server could not understand the request due to invalid syntax.
+- **401 Unauthorized** – Authentication is required to access the resource.
+- **403 Forbidden** – The server understands the request but refuses to authorize it.
+- **404 Not Found** – The requested resource could not be found.
+- **405 Method Not Allowed** – The request method is not allowed for the target resource.
+- **429 Too Many Requests** – The client has sent too many requests in a given amount of time, usually due to rate limiting.
+
+### 5xx - Server Errors
+
+- **500 Internal Server Error** – An unexpected error occurred on the server.
+- **502 Bad Gateway** – The server received an invalid response from an upstream server.
+- **503 Service Unavailable** – The server is temporarily unavailable.
 
 ## HTTP is the foundation of Web Security.
 
